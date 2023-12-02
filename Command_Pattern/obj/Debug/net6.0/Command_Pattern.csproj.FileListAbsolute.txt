@@ -1,0 +1,15 @@
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.csproj.AssemblyReference.cache
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.AssemblyInfoInputs.cache
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.AssemblyInfo.cs
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.csproj.CoreCompileInputs.cache
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\bin\Debug\net6.0\Command_Pattern.exe
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\bin\Debug\net6.0\Command_Pattern.deps.json
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\bin\Debug\net6.0\Command_Pattern.runtimeconfig.json
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\bin\Debug\net6.0\Command_Pattern.dll
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\bin\Debug\net6.0\Command_Pattern.pdb
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.dll
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\refint\Command_Pattern.dll
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.pdb
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\Command_Pattern.genruntimeconfig.cache
+C:\Users\rigond\source\repos\Command_Pattern\Command_Pattern\obj\Debug\net6.0\ref\Command_Pattern.dll

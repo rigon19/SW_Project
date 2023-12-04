@@ -3,37 +3,66 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Command_Pattern
 {
     public class Character
     {
-        private string currentAction;
-        private string lastAction;
-        public void Move()
+        private string _currentAction;
+
+        // The description of the action before the most recent action.
+        private string _lastAction;
+
+        // Expose currentAction through a property
+        public string CurrentAction => _currentAction;
+        public string LastAction => _lastAction;
+        public  virtual void Move()
         {
-            lastAction = currentAction;
-            currentAction = "Moved Forward";
-            Console.WriteLine("You moved Forward");
+            // Save the current action as the last action.
+            _lastAction = _currentAction;
+
+            // Set the current action to indicate moving forward.
+            _currentAction = "Moved Forward";
+
+            // Display a message indicating the character moved forward.
+            Console.WriteLine("You moved forward");
         }
 
-        public void Attack()
+        // Performs an attack action, updating the action log.
+        public virtual void Attack()
         {
-            lastAction = currentAction;
-            currentAction = "Attacked";
+            // Save the current action as the last action.
+            _lastAction = _currentAction;
+
+            // Set the current action to indicate an attack.
+            _currentAction = "Attacked";
+
+            // Display a message indicating the character attacked.
             Console.WriteLine("You attacked");
         }
 
-        public void Stop() {
-            lastAction = currentAction;
-            lastAction = "Stopped Moving";
+        // Stops the character from moving, updating the action log.
+        public virtual void Stop()
+        {
+            // Save the current action as the last action.
+            _lastAction = _currentAction;
+
+            // Set the current action to indicate stopping movement.
+            _currentAction = "Stopped Moving";
+
+            // Display a message indicating the character stopped moving.
             Console.WriteLine("You stopped moving");
         }
 
-        public void Undo()
+        // Undoes the last command/action, updating the action log.
+        public virtual void Undo()
         {
-            Console.WriteLine($"Undoing Last Command\nYou {lastAction}");
-            currentAction = lastAction;
+            // Display a message indicating the undoing of the last command.
+            Console.WriteLine("Undoing Last Command");
+
+            // Restore the current action to the previous action.
+            _currentAction = _lastAction;
         }
     }
+
 }
+

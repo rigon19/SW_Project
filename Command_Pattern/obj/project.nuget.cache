@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "a9Lbp6NaxmzuNdZdni9maHVH8c3A8RCRdldBATYyqhN2DT/du2LuA26ZvrZ2rWhxT3mbMgDuJKhjTbk/uYUtSA==",
+  "dgSpecHash": "81uxAoR9PyA/V0DN1sSUPPx1mDvqh7kjEpURN5vCXQBzvi5wMb9DZzgwdFB6Im0qczdQhBJ1HfTJ+FJGKbpvtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rigond\\Desktop\\SW_Project\\Command_Pattern\\Command_Pattern.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rigond\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\rigond\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\rigond\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

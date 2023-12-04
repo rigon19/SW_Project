@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Command_Pattern",
+    "\\Command_Pattern\\tests",
+    "\\TestProject1"
   ],
   "SelectedNode": "\\Command_Pattern.sln",
   "PreviewInSolutionExplorer": false
